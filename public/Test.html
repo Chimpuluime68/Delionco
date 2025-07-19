@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./custom.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>solar standard</title>
+  </head>
+  <body>
+    <header class="fixed left-0 right-0 top-0 bg-white z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between py-4">
+          <!-- Logo -->
+          <a href="#" class="flex items-center">
+            <img src="./image/Logo 2.png" alt="Logo" class="w-20" />
+          </a>
+
+          <!-- Desktop Menu nav -->
+          <ul
+            id="nav-menu"
+            class="hidden md:flex space-x-6 text-sm items-center"></ul>
+
+          <!-- Mobile Toggle nav -->
+          <button id="toggle-menu" class="md:hidden text-black text-xl">
+            <img id="img_menu" src="./icon/menu_black.svg" alt="delion_menu" />
+          </button>
+        </div>
+
+        <!-- loader -->
+        <div
+          id="loader"
+          class="fixed inset-0 bg-white flex items-center justify-center z-50">
+          <div
+            class="animate-spin rounded-full h-12 w-12 border-t-4 border-black"></div>
+        </div>
+        <!-- Mobile Menu -->
+        <ul
+          id="mobile-menu"
+          class="md:hidden bg-white left-0 right-0 px-4 absolute hidden flex-col text-sm space-y-2 py-4"></ul>
+      </div>
+    </header>
+    <section class="header pt-12 text-white">
+      <div class="flex flex-col items-center py-12 space-y-4 px-4">
+        <p class="text-2xl sm:text-3xl font-bold text-center">
+          Product Details
+        </p>
+
+        <!-- Breadcrumb -->
+        <div
+          class="flex flex-wrap justify-center items-center gap-1 text-xs sm:text-sm md:text-base text-center">
+          <img
+            src="./icon/Home (2).svg"
+            alt="delion_home"
+            class="w-4 h-4 sm:w-5 sm:h-5" />
+          <span>Home</span>
+          <span>&gt;</span>
+          <span>Products</span>
+          <span>&gt;</span>
+          <span>Access Control & Boom Barriers</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-8 px-4 sm:px-6">
+      <article
+        class="grid lg:grid-cols-4 md:grid-cols-3 px-3"
+        id="Test_control"></article>
+    </section>
+    <footer>
+      <div class="container mx-auto px-4">
+        <div class="flex text-white justify-center items-center text-center">
+          <p class="text-sm md:text-base pt-12">
+            &copy; 2025 DelionCommunication Limited. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./contoller.js"></script>
+  </body>
+</html>

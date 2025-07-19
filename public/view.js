@@ -121,12 +121,11 @@ class View {
           class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
         />
         <div class="px-4 pb-5">
-          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
           <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
           <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
           <button
-            class="mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
-            ${item.pricing}
+            class="w-full mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+            <a href="${item.whatsapp}" target="_blank">${item.pricing}</a>
           </button>
         </div>
       </div>`;
@@ -141,7 +140,6 @@ class View {
           class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
         />
         <div class="px-4 pb-5">
-          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
           <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
           <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
           <button
@@ -161,7 +159,6 @@ class View {
           class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
         />
         <div class="px-4 pb-5">
-          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
           <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
           <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
           <button
@@ -181,7 +178,6 @@ class View {
           class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
         />
         <div class="px-4 pb-5">
-          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
           <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
           <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
           <button
@@ -201,7 +197,6 @@ class View {
           class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
         />
         <div class="px-4 pb-5">
-          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
           <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
           <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
           <button
@@ -222,7 +217,6 @@ class View {
           class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
         />
         <div class="px-4 pb-5">
-          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
           <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
           <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
           <button
@@ -243,7 +237,6 @@ class View {
           class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
         />
         <div class="px-4 pb-5">
-          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
           <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
           <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
           <button
