@@ -3,7 +3,7 @@ export const navItems = [
   {
     name: "Product",
     dropdown: [
-      { name: "Solar CCTV & Standard CCTV", href: "#" },
+      { name: "Solar CCTV & Standard CCTV", href: "solar_standard.html" },
       { name: "Automated Gate Openers", href: "#" },
       { name: "Smart Hotel & Facial Looks", href: "#" },
       { name: "Car Tracking & Fleet Management", href: "#" },
