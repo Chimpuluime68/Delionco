@@ -13,7 +13,7 @@ class View {
       if (isHidden) {
         this.img_menu.src = "../public/icon/menu_black.svg";
       } else {
-        this.img_menu.src = "../public/icon/menu_close.svg";
+        this.img_menu.src = "/public/icon/menu_close.svg";
       }
     });
   }
