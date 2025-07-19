@@ -45,6 +45,6 @@ export const unbox = [
     head: "Solar CCTV",
     discription: "box Single lens 4G Camera",
     pricing: "  Get price",
-    img: "../public/image/ubox.png",
+    img: "/image/ubox.png",
   },
 ];
