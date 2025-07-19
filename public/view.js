@@ -4,8 +4,10 @@ class View {
     this.mobileMenu = document.getElementById("mobile-menu");
     this.toggleBtn = document.getElementById("toggle-menu");
     this.img_menu = document.getElementById("img_menu");
-    this.card_unbox = document.getElementById("card_unbox");
-    //hero section
+    // this.card_unbox = document.getElementById("card_unbox");
+    // this.solar_main = document.getElementById("solar_main");
+
+    // console.log(this.solar_main);
 
     this.hero = document.getElementById("hero");
     this.toggleBtn?.addEventListener("click", () => {
@@ -91,9 +93,9 @@ class View {
     return li;
   }
 
-  unbox(item) {
+  unbox(item, idelemnt) {
     item.forEach((item) => {
-      this.card_unbox.innerHTML += `<div class="rounded-2xl   overflow-hidden transition mt-4 bg-white">
+      idelemnt.innerHTML += `<div class="rounded-2xl   overflow-hidden transition mt-4 bg-white">
       <img
           src="${item.img}"
           alt="${item.head}"
@@ -107,6 +109,149 @@ class View {
           </button>
         </div>
          </div>`;
+    });
+  }
+
+  solar(item, idelemt) {
+    item.forEach((item) => {
+      idelemt.innerHTML += `      <div class="rounded-2xl lg:w-[270px] md:w-full overflow-hidden bg-white   mt-4">
+        <img
+          src="${item.img}"
+          alt="${item.head}"
+          class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
+        />
+        <div class="px-4 pb-5">
+          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
+          <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
+          <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
+          <button
+            class="mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+            ${item.pricing}
+          </button>
+        </div>
+      </div>`;
+    });
+  }
+  authomated_gate(item, idelemnt) {
+    item.forEach((item) => {
+      idelemnt.innerHTML += `      <div class="rounded-2xl lg:w-[270px] md:w-full overflow-hidden bg-white   mt-4">
+        <img
+          src="${item.img}"
+          alt="${item.head}"
+          class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
+        />
+        <div class="px-4 pb-5">
+          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
+          <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
+          <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
+          <button
+            class="mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+            ${item.pricing}
+          </button>
+        </div>
+      </div>`;
+    });
+  }
+  smart_main(item, idelemnt) {
+    item.forEach((item) => {
+      idelemnt.innerHTML += `      <div class="rounded-2xl lg:w-[270px] md:w-full overflow-hidden bg-white   mt-4">
+        <img
+          src="${item.img}"
+          alt="${item.head}"
+          class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
+        />
+        <div class="px-4 pb-5">
+          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
+          <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
+          <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
+          <button
+            class="mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+            ${item.pricing}
+          </button>
+        </div>
+      </div>`;
+    });
+  }
+  Top_games(item, idelemnt) {
+    item.forEach((item) => {
+      idelemnt.innerHTML += `      <div class="rounded-2xl lg:w-[270px] md:w-full overflow-hidden bg-white   mt-4">
+        <img
+          src="${item.img}"
+          alt="${item.head}"
+          class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
+        />
+        <div class="px-4 pb-5">
+          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
+          <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
+          <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
+          <button
+            class="mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+            ${item.pricing}
+          </button>
+        </div>
+      </div>`;
+    });
+  }
+  truck_games(item, idelemnt) {
+    item.forEach((item) => {
+      idelemnt.innerHTML += `      <div class="rounded-2xl lg:w-[270px] md:w-full overflow-hidden bg-white   mt-4">
+        <img
+          src="${item.img}"
+          alt="${item.head}"
+          class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
+        />
+        <div class="px-4 pb-5">
+          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
+          <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
+          <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
+          <button
+            class="mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+            ${item.pricing}
+          </button>
+        </div>
+      </div>`;
+    });
+  }
+
+  accss_contol(item, idelemnt) {
+    item.forEach((item) => {
+      idelemnt.innerHTML += `      <div class="rounded-2xl lg:w-[270px] md:w-full overflow-hidden bg-white   mt-4">
+        <img
+          src="${item.img}"
+          alt="${item.head}"
+          class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
+        />
+        <div class="px-4 pb-5">
+          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
+          <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
+          <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
+          <button
+            class="mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+            ${item.pricing}
+          </button>
+        </div>
+      </div>`;
+    });
+  }
+
+  power_bank(item, idelemnt) {
+    item.forEach((item) => {
+      idelemnt.innerHTML += `      <div class="rounded-2xl lg:w-[270px] md:w-full overflow-hidden bg-white   mt-4">
+        <img
+          src="${item.img}"
+          alt="${item.head}"
+          class="w-full h-48 object-cover rounded-b-3xl  bg-gray-100"
+        />
+        <div class="px-4 pb-5">
+          <p class="text-[#092635] font-semibold text-lg">${item.price}</p>
+          <h3 class="text-xl font-bold text-gray-800 mt-2">${item.head}</h3>
+          <p class="text-sm text-gray-600 mt-1">${item.discription}</p>
+          <button
+            class="mt-4 bg-[#092635] hover:bg-[#0b3a46] text-white px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+            ${item.pricing}
+          </button>
+        </div>
+      </div>`;
     });
   }
 }
