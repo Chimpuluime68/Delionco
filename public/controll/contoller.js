@@ -1,5 +1,5 @@
-import { app } from "../view/view.js";
-import { navItems, unbox } from "../view/navlist.js";
+import { app } from "../../view/view.js";
+import { navItems, unbox } from "../../view/navlist.js";
 
 window.addEventListener("load", () => {
   const loader = document.getElementById("loader");
