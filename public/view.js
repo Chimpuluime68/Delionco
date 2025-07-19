@@ -93,7 +93,7 @@ class View {
 
   unbox(item) {
     item.forEach((item) => {
-      this.card_unbox.innerHTML += `<div class="rounded-2xl mx-2  overflow-hidden transition mt-4 bg-white">
+      this.card_unbox.innerHTML += `<div class="rounded-2xl   overflow-hidden transition mt-4 bg-white">
       <img
           src="${item.img}"
           alt="${item.head}"
