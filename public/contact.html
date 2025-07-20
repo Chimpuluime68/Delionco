@@ -3,7 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./custom.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>solar standard</title>
   </head>
-  <body></body>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="fixed left-0 right-0 top-0 bg-white z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between py-4">
+          <a href="#" class="flex items-center">
+            <img src="./image/Logo 2.png" alt="Logo" class="w-20" />
+          </a>
+          <ul
+            id="nav-menu"
+            class="hidden md:flex space-x-6 text-sm items-center"></ul>
+          <button id="toggle-menu" class="md:hidden text-black text-xl">
+            <img id="img_menu" src="./icon/menu_black.svg" alt="delion_menu" />
+          </button>
+        </div>
+
+        <!-- Loader -->
+        <div
+          id="loader"
+          class="fixed inset-0 bg-white flex items-center justify-center z-50 hidden">
+          <div
+            class="animate-spin rounded-full h-12 w-12 border-t-4 border-black"></div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <ul
+          id="mobile-menu"
+          class="md:hidden bg-white left-0 right-0 px-4 absolute hidden flex-col text-sm space-y-2 py-4"></ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="header pt-12 text-white">
+      <div class="flex flex-col items-center py-12 space-y-4 px-4">
+        <p class="text-2xl sm:text-3xl font-bold text-center">Contact us</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="px-4 sm:px-6 mb-9 py-6 mx-auto">
+      <article class="md:max-w-3xl md:mx-auto md:text-center">
+        <h2 class="font-bold text-4xl mt-2">Say Hello! 👋</h2>
+
+        <p class="mt-8 text-gray-500">
+          We're here to help with any questions about our products, services, or
+          anything else you may need.
+        </p>
+        <p class="mt-4 text-gray-500">
+          Reach out via phone, email, or visit us at any of our store locations
+          in Anambra State, Nigeria.
+        </p>
+      </article>
+
+      <!-- Contact Info -->
+      <h3 class="mt-10 text-xl font-semibold text-center text-gray-800">
+        Contact Information
+      </h3>
+      <ul class="mt-6 md:text-center space-y-4 text-gray-700">
+        <li>
+          <strong class="text-black font-bold">Address 1:</strong><br />
+          Shop 301, Photo Shopping Plaza, No. 33 Venn Road South,<br />
+          Onitsha, Anambra State, Nigeria.
+        </li>
+        <li>
+          <strong class="text-black font-bold">Address 2:</strong><br />
+          Shop 3, Anagbmbo Plaza, Electrical Dealers Int'l Market,<br />
+          Obosi, Km 5, Onitsha, Anambra State, Nigeria.
+        </li>
+        <li>
+          <strong>Phone:</strong>
+          <a href="tel:+2348064086431" class="text-blue-600 hover:underline">
+            +234 806 408 6431
+          </a>
+        </li>
+        <li>
+          <strong>Email:</strong>
+          <a
+            href="mailto:info@delionCommunication.com"
+            class="text-blue-600 hover:underline">
+            info@delionCommunication.com
+          </a>
+        </li>
+      </ul>
+
+      <!-- Location Image -->
+      <div class="mt-10 flex justify-center">
+        <a href="https://www.cantrackportal.com/Skins/DefaultIndex/?locale=en">
+          <div class="rounded overflow-hidden shadow-md">
+            <img
+              src="./image/location.jpg"
+              alt="Delion Location"
+              class="w-full h-[200px] sm:h-[300px] object-cover" />
+            <div
+              class="bg-gray-100 px-4 py-2 text-center text-sm text-gray-700">
+              Our Shop Location
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-[40px]">
+      <div class="container mx-auto px-4">
+        <div class="flex text-white justify-center items-center text-center">
+          <p class="text-sm md:text-base pt-12">
+            &copy; 2025 DelionCommunication Limited. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./contoller.js"></script>
+  </body>
 </html>

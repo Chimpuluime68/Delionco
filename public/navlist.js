@@ -23,10 +23,7 @@ export const navItems = [
         name: "Access Control & Boom Barriers",
         href: "Access_Control.html",
       },
-      {
-        name: "Test ",
-        href: "Test.html",
-      },
+
       { name: "Power Banks for Starlink", href: "Power_etc.html" },
     ],
   },
@@ -88,21 +85,21 @@ export const solar_list = [
     discription: "box Single lens 4G Camera",
     pricing: "  Get best price",
     img: "./image/categories-03.jpg",
-     whatsapp: "https://wa.me/2348064086431",
+    whatsapp: "https://wa.me/2348064086431",
   },
   {
     head: "Solar CCTV",
     discription: "box Single lens 4G Camera",
     pricing: "   Get best price",
     img: "./image/categories-04.jpg",
-     whatsapp: "https://wa.me/2348064086431",
+    whatsapp: "https://wa.me/2348064086431",
   },
   {
     head: "Solar CCTV",
     discription: "box Single lens 4G Camera",
     pricing: "  Get best price",
     img: "./image/categories-05.jpg",
-     whatsapp: "https://wa.me/2348064086431",
+    whatsapp: "https://wa.me/2348064086431",
   },
 ];
 

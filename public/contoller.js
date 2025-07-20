@@ -37,9 +37,9 @@ document.addEventListener("DOMContentLoaded", () => {
   if (smart_main) app.authomated_gate(Smart_Looks, smart_main);
   if (top_games_main) app.Top_games(Top_games, top_games_main);
   if (Truckg_main) app.Top_games(Truck_games, Truckg_main);
-  if (power_main)
-    if (access_control_main)
-      app.accss_contol(access_control, access_control_main);
+
+  if (access_control_main)
+    app.accss_contol(access_control, access_control_main);
 
   if (power_main) app.power_bank(power_control, power_main);
   new Swiper(".mySwiper", {
