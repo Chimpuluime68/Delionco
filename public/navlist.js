@@ -12,7 +12,7 @@ export const navItems = [
       },
 
       {
-        name: "Top games",
+        name: "Car Tracking & Fleet Management",
         href: "top_games.html",
       },
       {
